@@ -1,4 +1,6 @@
 /* verilator lint_off UNUSED */
+
+`include "constant.v"
 module id_ex(input wire clk,
              input wire rst,
              input wire[`AluOpBus] id_aluop_i,
