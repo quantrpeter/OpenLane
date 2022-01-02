@@ -188,6 +188,7 @@ pull-openlane:
 
 .PHONY: mount
 mount:
+	@echo $(ENV_START) -ti $(OPENLANE_IMAGE_NAME)
 	cd $(OPENLANE_DIR) && \
 		$(ENV_START) -ti $(OPENLANE_IMAGE_NAME)
 
